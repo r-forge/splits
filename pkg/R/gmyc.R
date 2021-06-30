@@ -653,7 +653,7 @@ function(tr, method = "single", interval = c(0, 5), quiet = FALSE) {
 	if (!is.ultrametric(tr, tol=1e-6)) {
 		stop("Your ultrametric tree is not ultrametric, please check")
 	}
-	if (!is.binary.tree(tr)) {
+	if (!is.binary(tr)) {
 		stop("Your input tree is not fully bifurcating, please resolve with zero branch lengths")
 	}
 		
