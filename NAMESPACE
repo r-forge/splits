@@ -10,3 +10,14 @@ import(
   MASS,
   paran
 )
+
+importFrom("grDevices", "dev.off", "pdf", "rainbow")
+importFrom("graphics", "abline", "par", "plot")
+importFrom("stats", "cov", "cutree", "dist", "hclust", "kmeans",
+           "mahalanobis", "optim", "optimise", "pchisq", "prcomp",
+           "predict", "qchisq", "runif")
+importFrom("utils", "combn")
+
+# Methods for the gmyc class
+S3method(plot, gmyc)
+S3method(summary, gmyc)
