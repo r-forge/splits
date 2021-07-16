@@ -13,7 +13,7 @@ compare(...)
 }
 
 \arguments{
-\item{...}{gmyc objects}
+\item{...}{gmyc objects to be compared}
 }
 
 \details{
