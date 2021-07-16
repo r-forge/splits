@@ -12,6 +12,10 @@ Following function(s) has been removed from \bold{splits} and no longer availabl
 compare(...)
 }
 
+\arguments{
+\item{...}{gmyc objects}
+}
+
 \details{
 \code{compare} has been removed bacause the chi-square test between the single and multiple threshold models is not valid. (Their numbers of parameters are identical. See reference).
 }
